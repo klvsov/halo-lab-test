@@ -1,0 +1,63 @@
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 352px;
+  margin: 20px 10px;
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 32px;
+  cursor: pointer;
+}
+
+.card-category {
+  flex-basis: 100%;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.card-name {
+  margin-top: 8px;
+  flex-basis: 100%;
+  font-family: Roboto;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.card-buy {
+  flex-basis: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.card-price {
+  display: flex;
+  flex-basis: 50%;
+  font-family: Roboto;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.card-price span {
+  margin-right: 4px;
+  font-size: 30px;
+  line-height: 55px;
+  letter-spacing: -0.02em;
+}
+
+@media (max-width: 576px) {
+  .card-price {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}

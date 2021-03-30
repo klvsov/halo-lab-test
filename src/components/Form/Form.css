@@ -1,0 +1,30 @@
+.input-control input {
+  width: 288px;
+  margin-bottom: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  border-radius: 16px;
+  padding: 16px;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: rgba(0, 0, 0, 0.5);
+  outline: none;
+}
+
+.input-control {
+  margin-bottom: 16px;
+}
+
+.error {
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.02em;
+  color: #e43f3f;
+}
+
+.input-control input.input-error {
+  border-color: #e43f3f;
+}
